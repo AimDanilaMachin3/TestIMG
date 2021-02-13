@@ -1,0 +1,279 @@
+@media (max-width: 1440px) {
+  .InformationMenu {
+    width: 250px;
+    height: 100%;
+    font-size: 14px;
+  }
+
+  .Content {
+    width: 1100px;
+    height: 960px;
+  }
+
+  .Content__formRegistration {
+    width: 250px;
+
+    margin-left: 185px;
+  }
+
+  .Content__formRegistration__item {
+    margin: 20px 65px;
+  }
+
+  .Content__formRegistration__button {
+    margin-left: 15px;
+  }
+
+  .Content__form {
+    position: absolute;
+
+    margin-top: -760px;
+    margin-left: 580px;
+
+    width: 490px;
+    height: 1010px;
+
+    background-color: #ff6a28;
+
+    border-radius: 20px;
+  }
+
+  .Content__form__h3 {
+    margin-left: 20px;
+  }
+
+  .Content__form__row__wrapper {
+    margin-left: 60px;
+  }
+
+  .Content__form__row__button {
+    margin-left: 135px;
+  }
+
+  .Content__form__h4 {
+    margin-left: 45px;
+  }
+
+  .Content__form__input__height {
+    margin-left: 60px;
+    width: 380px;
+  }
+
+  .Content__form__checkbox {
+    margin-left: 220px;
+  }
+
+  .Content__form__wrapper {
+    margin-left: 65px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .InformationMenu {
+    width: 250px;
+    height: 100%;
+    font-size: 14px;
+  }
+
+  .Content {
+    width: 920px;
+  }
+
+  .Content__formRegistration {
+    width: 230px;
+
+    margin-left: 110px;
+  }
+
+  .Content__formRegistration__item {
+    margin: 20px 50px;
+  }
+
+  .Content__formRegistration__button {
+    margin-left: 25px;
+    width: 180px;
+    padding: 8px 10px;
+  }
+
+  .Content__form {
+    position: absolute;
+
+    margin-left: 450px;
+
+    width: 440px;
+    height: 1010px;
+
+    background-color: #ff6a28;
+
+    border-radius: 20px;
+  }
+
+  .Content__form__h3 {
+    font-size: 16px;
+  }
+
+  .Content__form__row__wrapper {
+    margin-left: 40px;
+  }
+
+  .Content__form__row__button {
+    margin-left: 120px;
+  }
+
+  .Content__form__h4 {
+    margin-left: 45px;
+    font-size: 14px;
+  }
+
+  .Content__form__input__height {
+    margin-left: 40px;
+    width: 370px;
+  }
+
+  .Content__form__checkbox {
+    margin-left: 210px;
+  }
+
+  .Content__form__wrapper {
+    margin-left: 40px;
+  }
+
+  .Content__form__text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Content {
+    width: 675px;
+  }
+
+  .Content__formRegistration {
+    width: 200px;
+
+    margin-left: 80px;
+  }
+
+  .Content__formRegistration__item {
+    margin: 20px 45px;
+  }
+
+  .Content__formRegistration__button {
+    margin-left: 20px;
+    width: 150px;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .Content__form {
+    position: absolute;
+
+    margin-left: 370px;
+
+    width: 285px;
+    height: 1010px;
+
+    background-color: #ff6a28;
+
+    border-radius: 20px;
+  }
+
+  .Content__form__h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .Content__form__decorationLine {
+    width: 225px;
+  }
+
+  .Content__form__row__units {
+    font-size: 14px;
+    margin-left: 25px;
+  }
+
+  .Content__form__row__wrapper {
+    margin-left: 40px;
+  }
+
+  .Content__form__row__button {
+    margin-left: 65px;
+    width: 160px;
+  }
+
+  .Content__form__row__input {
+    width: 100px;
+  }
+
+  .Content__form__h4 {
+    margin-left: 45px;
+    margin-top: 5px;
+
+    font-size: 14px;
+  }
+
+  .Content__form__input__height {
+    margin-left: 40px;
+    width: 210px;
+  }
+
+  .Content__form__checkbox {
+    margin-left: 135px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .Content__form__wrapper {
+    margin-left: 40px;
+  }
+
+  .Content__form__text {
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .Content__form__wrapper__firstrow {
+    width: 90px;
+    height: 245px;
+  }
+
+  .Content__form__wrapper__row__units {
+    font-size: 14px;
+  }
+
+  .Content__form__wrapper__row__input {
+    width: 90px;
+    height: 40px;
+  }
+
+  .Content__form__wrapper__secondrow    {
+    height: 90px;
+    width: 180px;
+  }
+
+  .Content__form__wrapper__secondrow__input {
+    width: 90px;
+    height: 40px;
+  }
+
+  .Content__form__wrapper__secondrow__item  {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .Content__form__wrapper__secondrow__button    {
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    padding: 0 0;
+
+  }
+  
+  .Content__form__wrapper__secondrow__units {
+   text-align: left;
+    font-size: 12px;
+
+    margin-top: 50px;
+  }
+}
