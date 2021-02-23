@@ -1,3 +1,7 @@
+html  {
+  font-size: 100%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,26 +15,21 @@ body {
   background-color: #2eb4e7;
 }
 
-.Wrapper {
-  display: flex;
-  align-items: flex-start;
-}
-
-.InformationMenu {
+.informationMenu {
   width: 285px;
   height: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 
   margin-top: 30px;
   margin-left: 15px;
 }
 
-.InformationMenu__item {
+.listItem {
   color: black;
 }
 
-.Content {
+.content {
   padding-top: 380px;
 
   background-color: white;
@@ -45,14 +44,55 @@ body {
   box-shadow: 0 0 15px #091830;
 }
 
-.Content__formRegistration {
+.formRegistration {
   width: 310px;
   height: 345px;
 
   margin-left: 185px;
 }
 
-.Content__form {
+.registrationInput { 
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+
+  background-color: #eeeeee;
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+
+  font-size: 1rem;
+  font-family: "PT Sans", sans-serif;
+  color: #31405b;
+}
+
+.registrationLink {
+  margin: 20px 100px;
+  color: #62656a;
+}
+
+.registrationButton {
+  background-color: #239fdf;
+
+  width: 220px;
+  height: 60px;
+
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 8px 40px;
+
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in;
+
+  cursor: pointer;
+}
+
+.wrapperForm {
   position: absolute;
 
   margin-top: -760px;
@@ -66,48 +106,7 @@ body {
   border-radius: 20px;
 }
 
-.Content__form__input {
-  width: 100%;
-  height: 50px;
-  padding-left: 20px;
-  margin-bottom: 15px;
-
-  background-color: #eeeeee;
-  border: 1px solid #c0c0c0;
-  border-radius: 10px;
-
-  font-size: 16px;
-  font-family: "PT Sans", sans-serif;
-  color: #31405b;
-}
-
-.Content__formRegistration__item {
-  margin: 20px 100px;
-  color: #62656a;
-}
-
-.Content__formRegistration__button {
-  background-color: #239fdf;
-
-  width: 220px;
-  height: 60px;
-
-  margin-left: 50px;
-  margin-top: 10px;
-  padding: 8px 40px;
-
-  display: inline-block;
-  border-radius: 5px;
-  font-size: 16px;
-  color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-  transition: background-color 0.2s ease-in;
-
-  cursor: pointer;
-}
-
-.Content__form__h3 {
+.title {
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -116,7 +115,7 @@ body {
   margin-left: 80px;
 }
 
-.Content__form__decorationLine {
+.decorationLine {
   width: 480px;
   height: 1px;
   background-color: #fff;
@@ -124,15 +123,15 @@ body {
   margin: 20px auto;
 }
 
-.Content__form__row {
+.wrappperRow {
   display: flex;
 }
 
-.Content__form__row__wrapper {
+.row {
   margin-left: 85px;
 }
 
-.Content__form__row__wrapper:last-child {
+.row:last-child {
   margin-left: 10px;
 }
 
@@ -140,7 +139,7 @@ body {
   margin-left: 60px;
 }
 
-.Content__form__row__input {
+.rowInput {
   width: 180px;
   height: 50px;
   padding-left: 20px;
@@ -150,12 +149,12 @@ body {
   border: 1px solid #c0c0c0;
   border-radius: 5px;
 
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "PT Sans", sans-serif;
   color: #31405b;
 }
 
-.Content__form__row__button {
+.rowButton {
   background-color: #239fdf;
 
   width: 220px;
@@ -176,7 +175,7 @@ body {
   cursor: pointer;
 }
 
-.Content__form__h4 {
+.subtitle {
   color: white;
   font-weight: bold;
 
@@ -193,12 +192,12 @@ body {
   border: 1px solid #c0c0c0;
   border-radius: 5px;
 
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "PT Sans", sans-serif;
   color: #31405b;
 }
 
-.Content__form__input__height {
+.inputHeight {
   width: 440px;
   height: 50px;
   padding-left: 20px;
@@ -210,19 +209,19 @@ body {
   border: 1px solid #c0c0c0;
   border-radius: 5px;
 
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "PT Sans", sans-serif;
   color: #31405b;
 }
 
-.Content__form__checkbox  {
+.formCheckbox  {
   width: 50px;
   height: 50px;
 
   margin-left: 280px;
 }
 
-.Content__form__text {
+.formText {
   color: white;
   text-align: center;
   margin-left: 85px;
@@ -230,7 +229,7 @@ body {
   font-weight: 700;
 }
 
-.Content__form__wrapper {
+.wrapperBlock {
   width: 375px;
   height: 245px;
 
@@ -239,31 +238,24 @@ body {
   display: flex;
 }
 
-.Content__form__wrapper__firstrow {
+.firstRow {
   width: 180px;
   height: 245px;
 }
 
-.Content__form__wrapper__firstrow__radio {
+.radio {
   display: flex;
 }
 
-.Content__form__wrapper__secondrow {
-  height: 230px;
-  width: 180px;
-
-  margin-left: 10px;
-}
-
-.label-radio {
+.labelRadio {
   display: block;
   margin-bottom: 15px;
-  font-size: 16px;
+  font-size: 1rem;
 
   width: 100px;
 }
 
-.custom-radio {
+.customRadio {
   position: relative;
   display: inline-block;
   width: 30px;
@@ -279,7 +271,7 @@ body {
   cursor: pointer;
 }
 
-.custom-radio::before {
+.customRadio::before {
   content: "";
 
   position: absolute;
@@ -299,17 +291,17 @@ body {
   display: none;
 }
 
-.real-radio {
+.realRadio {
   width: 0;
   height: 0;
   position: absolute;
 }
 
-.real-radio:checked + .custom-radio::before {
+.realRadio:checked + .customRadio::before {
   display: block;
 }
 
-.Content__form__wrapper__row {
+.wrapperRow {
   display: flex;
 
   flex-direction: column;
@@ -318,24 +310,16 @@ body {
   font-weight: 600;
 }
 
-.Content__form__wrapper__row__input {
+.wrapperSecondrow {
+  height: 230px;
   width: 180px;
-  height: 50px;
-  padding-left: 20px;
-  margin-bottom: 15px;
 
-  background-color: #fdfdfd;
-  border: 1px solid #c0c0c0;
-  border-radius: 5px;
-
-  font-size: 16px;
-  font-family: "PT Sans", sans-serif;
-  color: #31405b;
+  margin-left: 10px;
 }
 
-.Content__form__wrapper__secondrow__item    {
+.secondrowItem    {
     color: black;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     font-weight: 600;
 
@@ -344,7 +328,7 @@ body {
     display: block;
 }
 
-.Content__form__wrapper__secondrow__button {
+.secondrowButton {
     background-color: #239fdf;
   
     width: 180px;
@@ -355,7 +339,7 @@ body {
   
     display: inline-block;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
     font-weight: 700;
     text-decoration: none;
@@ -365,14 +349,14 @@ body {
   }
 
 
-  .Content__form__wrapper__secondrow__units {
+  .secondrowUnits {
     text-align: center;
     font-weight: 600;
 
     margin-top: 10px;
   }
 
-  .Content__form__wrapper__secondrow__input {
+  .secondrowInput {
     width: 180px;
     height: 50px;
     padding-left: 20px;
@@ -381,8 +365,8 @@ body {
     background-color: #fdfdfd;
     border: 1px solid #c0c0c0;
     border-radius: 5px;
-  
-    font-size: 16px;
+    
+    font-size: 1rem;
     font-family: "PT Sans", sans-serif;
     color: #31405b;
   }
